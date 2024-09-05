@@ -34,7 +34,6 @@
   border-radius: 50%;
   background-color: var(--toggle-fg);
   position: absolute;
-  left: 0.2em;
   top: 50%;
   transform: translateY(-50%);
   transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
