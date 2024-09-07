@@ -14,7 +14,6 @@
   font-size: 1.5em;
   cursor: pointer;
   color: var(--primary-text-color);
-  position: relative;
 }
 
 .toggle + label::before {
@@ -31,14 +30,13 @@
   content: "";
   height: 0.8em;
   width: 0.8em;
-  border-radius: 50%;
+  border-radius: 1em;
   background-color: var(--toggle-fg);
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 0.2em;
   transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
 }
 
 .toggle:checked + label::after {
-  transform: translate(1.2em, -50%);
+  transform: translateX(100%);
 }
